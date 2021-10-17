@@ -10,6 +10,7 @@
     }
     
     main {
+        /* max-width: 1000px; */
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -17,8 +18,7 @@
     
     .image {
         margin: 30px;
-        width: 30%;
-        min-width: 250px;
+        width: 450px;
         border-radius: 20px;
         height: 100%;
         background-color: rgb(241, 241, 239);
@@ -44,28 +44,40 @@
         border-radius: 15px;
     }
     
+    #shoes {
+        margin-top: 0;
+    }
+    
     .image__shipping {
         display: flex;
         flex-direction: row;
+        margin: 0 35px 0 15px;
     }
     
     .image__shipping p {
         flex-basis: 50%;
     }
     
+    #p {
+        text-align: right;
+    }
+    
     #buttons {
+        width: 100px;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         border: 1px solid black;
+        margin-top: 35px;
     }
     
     #buttons button {
-        width: 50px;
+        width: 40px;
     }
     
     #form {
         margin: 30px;
-        width: 30%;
+        width: 450px
     }
     
     form {}
@@ -81,7 +93,7 @@
     
     input,
     select {
-        border-radius: 5px;
+        width: 330px;
     }
     
     .info {
