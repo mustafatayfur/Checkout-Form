@@ -1,4 +1,103 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        border: 1px solid red;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    
+    .image {
+        margin: 30px;
+        width: 30%;
+        min-width: 250px;
+        border-radius: 20px;
+        height: 100%;
+        background-color: rgb(241, 241, 239);
+    }
+    
+    h2 {
+        font-size: 0.9rem;
+    }
+    
+    .prices {
+        margin: 10px;
+    }
+    
+    .image__image1 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    img {
+        margin: 15px;
+        width: auto;
+        height: 110px;
+        border-radius: 15px;
+    }
+    
+    .image__shipping {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .image__shipping p {
+        flex-basis: 50%;
+    }
+    
+    #buttons {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+    }
+    
+    #buttons button {
+        width: 50px;
+    }
+    
+    #form {
+        margin: 30px;
+        width: 30%;
+    }
+    
+    form {}
+    
+    h3 {
+        margin: 10px 0;
+    }
+    
+    label {
+        margin: 10px 0;
+        font-size: 0.6rem;
+    }
+    
+    input,
+    select {
+        border-radius: 5px;
+    }
+    
+    .info {
+        margin: 10px;
+    }
+    
+    .address {
+        margin: 10px;
+    }
+    
+    #continue button {
+        float: right;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        height: 40px;
+        width: 80px;
+        border-radius: 5px;
+        font-weight: 700;
+    }

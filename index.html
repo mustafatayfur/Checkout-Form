@@ -5,11 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout Form</title>
+
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Checkout Form</title>
+
 </head>
 
 <body>
+    <h1>Checkout</h1>
+    <main>
+        <div class="image">
+            <div class="image__image1">
+                <img src="./images/photo1.png" alt="Backbag">
+                <div class="prices">
+                    <h2>Vintage Backbag</h2>
+                    <p>
+                        <strong>$54.99</strong><span>$94.99</span>
+                    </p>
+                    <div id="buttons">
+                        <button><i class="fas fa-minus" aria-hidden="true"></i></button>
+                        <p>1</p>
+                        <button><i class="fas fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="image__image1">
+                <img src="./images/photo2.png" alt="Backbag">
+                <div class="prices">
+                    <h2>Levi Shoes</h2>
+                    <p>
+                        <strong>$74.99</strong><span>$124.99</span>
+                    </p>
+                    <div id="buttons">
+                        <button><i class="fas fa-minus" aria-hidden="true"></i></button>
+                        <p>1</p>
+                        <button><i class="fas fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="image__shipping">
+                <p>Shipping</p>
+                <p>$19</p>
+            </div>
+            <div class="image__shipping">
+                <p>Total</p>
+                <p>$148.98</p>
+            </div>
+        </div>
+
+        <div id="form">
+            <div class="info">
+                <h3>Contact Information</h3>
+                <form action="#">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="e-mail" id="email" placeholder="Enter your email..."><br><br>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" name="Phone" id="phone" placeholder="Enter your phone..."><br><br>
+                </form>
+            </div>
+            <div class="address">
+                <h3>Shipping address</h3>
+                <form action="#">
+                    <label for="Full Name">Full name</label><br>
+                    <input type="text" name="Full Name" id="Full Name" placeholder="Enter your Full name..."><br><br>
+
+                    <label for="address">Address</label><br>
+                    <input type="text" name="Address" id="address" placeholder="Enter your address..."><br><br>
+
+                    <label for="city">City</label><br>
+                    <input type="text" name="City" id="city" placeholder="Enter your city..."><br><br>
+
+                    <label for="country">Country</label><br>
+                    <select name="Country" id="country">
+                        <option value="Turkey">Turkey</option>
+                        <option value="Germany">Germany</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                    </select>
+                    <label for="postcode">Post Code</label><br>
+                    <input type="text" name="Postcode" id="postcode" placeholder="Enter your postal code..."><br><br>
+
+                    <input type="checkbox" name="info_next" id="info"> <label for="info">See this information next time</label><br><br>
+                </form>
+            </div>
+            <div id="continue">
+                <button type="submit">Continue</button>
+            </div>
+        </div>
+
+
+    </main>
+
+
 
 </body>
 
