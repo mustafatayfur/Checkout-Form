@@ -1,115 +1,148 @@
-    * {
-        margin: 0;
-        padding: 0;
-        border: 1px solid red;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    h1 {
-        text-align: center;
-    }
-    
-    main {
-        /* max-width: 1000px; */
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-    }
-    
-    .image {
-        margin: 30px;
-        width: 450px;
-        border-radius: 20px;
-        height: 100%;
-        background-color: rgb(241, 241, 239);
-    }
-    
-    h2 {
-        font-size: 0.9rem;
-    }
-    
-    .prices {
-        margin: 10px;
-    }
-    
-    .image__image1 {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    img {
-        margin: 15px;
-        width: auto;
-        height: 110px;
-        border-radius: 15px;
-    }
-    
-    #shoes {
-        margin-top: 0;
-    }
-    
-    .image__shipping {
-        display: flex;
-        flex-direction: row;
-        margin: 0 35px 0 15px;
-    }
-    
-    .image__shipping p {
-        flex-basis: 50%;
-    }
-    
-    #p {
-        text-align: right;
-    }
-    
-    #buttons {
-        width: 100px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        border: 1px solid black;
-        margin-top: 35px;
-    }
-    
-    #buttons button {
-        width: 40px;
-    }
-    
-    #form {
-        margin: 30px;
-        width: 450px
-    }
-    
-    form {}
-    
-    h3 {
-        margin: 10px 0;
-    }
-    
-    label {
-        margin: 10px 0;
-        font-size: 0.6rem;
-    }
-    
-    input,
-    select {
-        width: 330px;
-    }
-    
-    .info {
-        margin: 10px;
-    }
-    
-    .address {
-        margin: 10px;
-    }
-    
-    #continue button {
-        float: right;
-        background-color: rgb(255, 153, 0);
-        color: white;
-        height: 40px;
-        width: 80px;
-        border-radius: 5px;
-        font-weight: 700;
-    }
+            * {
+                margin: 0;
+                padding: 0;
+                /* border: 1px solid red; */
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            main {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+            }
+            
+            .image {
+                margin: 30px;
+                width: 450px;
+                border-radius: 20px;
+                height: 100%;
+                background-color: #EEEEEE;
+            }
+            
+            .image__image1 {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            img {
+                margin: 15px;
+                width: auto;
+                height: 110px;
+                border-radius: 15px;
+            }
+            
+            .prices {
+                margin: 10px;
+            }
+            
+            h2 {
+                font-size: 0.9rem;
+            }
+            /*         
+        #shoes {
+            margin-top: 0;
+        } */
+            
+            #buttons {
+                width: 90px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                border: 1px solid black;
+                margin-top: 35px;
+                border-radius: 5px;
+                height: 25px;
+            }
+            
+            #buttons button {
+                width: 15px;
+                height: 20px;
+                margin-top: 2px;
+                border-radius: 3px;
+                border: none;
+                background-color: #d6d6d6;
+            }
+            
+            .image__shipping {
+                display: flex;
+                flex-direction: row;
+                margin: 0 35px 0 15px;
+            }
+            
+            .image__shipping p {
+                flex-basis: 50%;
+            }
+            
+            #p {
+                text-align: right;
+            }
+            
+            #form {
+                margin: 30px;
+                width: 450px
+            }
+            
+            .info {
+                margin: 10px;
+            }
+            
+            h3 {
+                margin: 10px 0;
+            }
+            
+            label {
+                margin: 10px 0;
+                font-size: 0.6rem;
+            }
+            
+            input,
+            select {
+                width: 380px;
+                height: 32px;
+                border-radius: 5px;
+                border: 1px solid rgb(130, 130, 130);
+            }
+            
+            .address {
+                margin: 10px;
+            }
+            
+            #info {
+                width: 15px;
+            }
+            
+            #continue button {
+                float: right;
+                background-color: rgb(255, 153, 0);
+                color: white;
+                height: 40px;
+                width: 80px;
+                border-radius: 5px;
+                font-weight: 700;
+                border: none;
+            }
+            
+            .input-field input,
+            select {
+                padding-left: 40px;
+            }
+            
+            .input-field {
+                position: relative;
+            }
+            
+            .input-field i {
+                position: absolute;
+                left: 0;
+                top: 0;
+                padding: 9px 8px;
+                color: #aaa;
+            }
+            
+            #postcode {
+                width: 40%;
+            }
