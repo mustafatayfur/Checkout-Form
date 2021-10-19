@@ -105,24 +105,27 @@
                         <input type="text" name="City" id="city" placeholder="Enter your city..."><br><br>
                         <i class="fas fa-city"></i>
                     </div>
-
-                    <label for="country">Country</label><br>
-                    <div class="input-field">
-                        <select name="Country" id="country">
-                            <option value="Turkey">Turkey</option>
-                            <option value="Germany">Germany</option>
-                            <option value="USA">USA</option>
-                            <option value="Canada">Canada</option>
-                            <option value="UK">UK</option>
-                        </select>
-                        <i class="fas fa-globe-europe"></i>
-                    </div>
-
-
-                    <label for="postcode">Post Code</label><br>
-                    <div class="input-field">
-                        <input type="text" name="Postcode" id="postcode" placeholder="Enter your postal code..."><br><br>
-                        <i class="fas fa-mail-bulk"></i>
+                    <div id="country-postcode">
+                        <div>
+                            <label for=" country">Country</label><br>
+                            <div class="input-field">
+                                <select name="Country" id="country">
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="UK">UK</option>
+                                </select>
+                                <i class="fas fa-globe-europe"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="postcode" id="postcode-label">Post Code</label><br>
+                            <div class="input-field">
+                                <input type="text" name="Postcode" id="postcode" placeholder="Enter your postal code."><br><br>
+                                <i class="fas fa-mail-bulk" id="postcode-i"></i>
+                            </div>
+                        </div>
                     </div>
 
 

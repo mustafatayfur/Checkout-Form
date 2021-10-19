@@ -67,6 +67,10 @@
                 background-color: #d6d6d6;
             }
             
+            #buttons p {
+                margin-top: 3px;
+            }
+            
             .image__shipping {
                 display: flex;
                 flex-direction: row;
@@ -143,6 +147,29 @@
                 color: #aaa;
             }
             
+            #postcode-i {
+                position: absolute;
+                left: 50px;
+                top: 0;
+                padding: 9px 8px;
+                color: #aaa;
+            }
+            
+            #postcode-label {
+                position: relative;
+                left: 50px;
+            }
+            
+            #country-postcode {
+                display: flex;
+                flex-direction: row;
+            }
+            
             #postcode {
-                width: 40%;
+                width: 180px;
+                margin-left: 50px;
+            }
+            
+            #country {
+                width: 120px;
             }
