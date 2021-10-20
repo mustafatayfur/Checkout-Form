@@ -1,202 +1,236 @@
-            * {
-                margin: 0;
-                padding: 0;
-                /* border: 1px solid red; */
-                font-family: 'Montserrat', sans-serif;
-            }
-            
-            h1 {
-                text-align: center;
-            }
-            
-            main {
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: center;
-            }
-            
-            .image {
-                margin: 30px;
-                width: 350px;
-                min-width: 350px;
-                border-radius: 12px;
-                height: 400px;
-                background-color: #EEEEEE;
-            }
-            
-            .image__image1 {
-                display: flex;
-                flex-direction: row;
-            }
-            
-            img {
-                margin: 15px;
-                width: 90px;
-                height: 110px;
-                border-radius: 10px;
-            }
-            
-            .prices {
-                margin: 10px;
-            }
-            
-            h2 {
-                font-size: 0.9rem;
-                margin-top: 10px;
-                color: rgb(85, 85, 85);
-            }
-            
-            #buttons {
-                width: 100px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                border: 1px solid rgb(161, 161, 161);
-                margin-top: 35px;
-                border-radius: 5px;
-                height: 35px;
-                align-items: center;
-            }
-            
-            #buttons button {
-                width: 18px;
-                height: 25px;
-                border-radius: 3px;
-                border: none;
-                background-color: #d6d6d6;
-            }
-            
-            #buttons p {
-                margin-top: 3px;
-                font-size: 0.8rem;
-            }
-            
-            span {
-                text-decoration: line-through;
-                font-size: 0.7rem;
-                margin-left: 6px;
-            }
-            
-            strong {
-                color: orange;
-            }
-            
-            #shipping__total {
-                margin: 60px 45px 15px 15px;
-            }
-            
-            .image__shipping {
-                display: flex;
-                flex-direction: row;
-                margin: 10px 0;
-                border-top: 1px solid rgb(182, 182, 182);
-            }
-            
-            .image__shipping p {
-                flex-basis: 50%;
-            }
-            
-            #p {
-                text-align: right;
-            }
-            
-            #form {
-                margin: 30px;
-                width: 450px
-            }
-            
-            .info {
-                margin: 10px;
-            }
-            
-            h3 {
-                margin: 10px 0;
-            }
-            
-            label {
-                margin: 10px 0;
-                font-size: 0.7rem;
-            }
-            
-            input,
-            select {
-                margin-top: 5px;
-                width: 380px;
-                height: 32px;
-                border-radius: 5px;
-                border: 1px solid rgb(130, 130, 130);
-            }
-            
-            .address {
-                margin: 10px;
-            }
-            
-            #info {
-                width: 15px;
-                margin-right: 10px;
-            }
-            
-            #continue button {
-                float: right;
-                background-color: rgb(255, 153, 0);
-                color: white;
-                height: 40px;
-                width: 80px;
-                border-radius: 5px;
-                font-weight: 700;
-                border: none;
-            }
-            
-            .input-field input,
-            select {
-                padding-left: 40px;
-            }
-            
-            .input-field {
-                position: relative;
-            }
-            
-            .input-field i {
-                position: absolute;
-                left: 0;
-                top: 5px;
-                padding: 9px 8px;
-                color: rgb(141, 138, 138);
-            }
-            
-            #postcode-i {
-                position: absolute;
-                left: 35px;
-                top: 5px;
-                padding: 9px 8px;
-                color: #aaa;
-            }
-            
-            #postcode-label {
-                position: relative;
-                left: 35px;
-            }
-            
-            #country-postcode {
-                display: flex;
-                flex-direction: row;
-            }
-            
-            #postcode {
-                width: 180px;
-                margin-left: 30px;
-            }
-            
-            #country {
-                width: 120px;
-            }
-            
-             ::placeholder {
-                color: rgb(107, 107, 107);
-                font-weight: 550;
-            }
-            
-            #check {
-                display: flex;
-                flex-direction: row;
-            }
+    * {
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid red; */
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    
+    .image {
+        padding-top: 10px;
+        margin: 30px;
+        width: 350px;
+        min-width: 350px;
+        border-radius: 10px;
+        height: 400px;
+        background-color: #EEEEEE;
+    }
+    
+    .image__image1 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    img {
+        margin: 10px 20px;
+        width: 90px;
+        height: 110px;
+        border-radius: 10px;
+    }
+    
+    .prices {
+        margin: 2px;
+    }
+    
+    h2 {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        color: rgb(85, 85, 85);
+    }
+    
+    #buttons {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 1px solid rgb(161, 161, 161);
+        margin-top: 35px;
+        border-radius: 5px;
+        height: 35px;
+        align-items: center;
+    }
+    
+    #buttons button {
+        width: 18px;
+        height: 25px;
+        border-radius: 3px;
+        border: none;
+        background-color: #d6d6d6;
+    }
+    
+    #buttons p {
+        margin-top: 3px;
+        font-size: 0.8rem;
+    }
+    
+    span {
+        text-decoration: line-through;
+        font-size: 0.7rem;
+        margin-left: 6px;
+    }
+    
+    strong {
+        color: orange;
+    }
+    
+    #shipping__total {
+        margin: 60px 45px 15px 15px;
+    }
+    
+    .image__shipping {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0;
+        border-top: 1px solid rgb(182, 182, 182);
+    }
+    
+    .image__shipping p {
+        flex-basis: 50%;
+    }
+    
+    #p {
+        text-align: right;
+    }
+    
+    #form {
+        margin: 30px 10px 30px 30px;
+        width: 450px
+    }
+    
+    .info {
+        margin: 10px 10px 40px 10px;
+    }
+    
+    h3 {
+        margin: 10px 0;
+    }
+    
+    label {
+        margin: 10px 0;
+        font-size: 0.7rem;
+        color: rgb(66, 66, 66);
+    }
+    
+    input,
+    select {
+        color: rgb(61, 61, 61);
+        margin-top: 5px;
+        width: 380px;
+        height: 32px;
+        border-radius: 5px;
+        border: 1px solid rgb(130, 130, 130);
+    }
+    
+    .address {
+        margin: 10px;
+    }
+    
+    #info {
+        width: 15px;
+        margin-right: 10px;
+    }
+    
+    #continue button {
+        float: right;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        height: 40px;
+        width: 80px;
+        border-radius: 5px;
+        font-weight: 700;
+        border: none;
+    }
+    
+    .input-field input,
+    select {
+        padding-left: 30px;
+    }
+    
+    .input-field {
+        position: relative;
+    }
+    
+    .input-field i {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        padding: 9px 8px;
+        color: rgb(141, 138, 138);
+    }
+    
+    #postcode-i {
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        padding: 9px 8px;
+        color: #aaa;
+    }
+    
+    #postcode-label {
+        position: relative;
+        left: 20px;
+    }
+    
+    #country-postcode {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #postcode {
+        width: 200px;
+        margin-left: 20px;
+    }
+    
+    #country {
+        width: 120px;
+    }
+    
+     ::placeholder {
+        color: rgb(107, 107, 107);
+        font-weight: 550;
+    }
+    
+    #check {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #check label {
+        margin-top: 15px;
+    }
+    
+    @media screen and (max-width:600px) {
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .image {
+            padding-top: 10px;
+            margin: 30px;
+            width: 420px;
+            min-width: 350px;
+            border-radius: 10px;
+            height: 400px;
+            background-color: #EEEEEE;
+        }
+        #continue button {
+            float: none;
+            margin-left: 180px;
+            color: white;
+            height: 40px;
+            width: 80px;
+            border-radius: 5px;
+            font-weight: 700;
+            border: none;
+        }
+    }
