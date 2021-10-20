@@ -17,9 +17,9 @@
             
             .image {
                 margin: 30px;
-                width: 450px;
-                border-radius: 20px;
-                height: 100%;
+                width: 350px;
+                border-radius: 12px;
+                height: 400px;
                 background-color: #EEEEEE;
             }
             
@@ -48,19 +48,20 @@
         } */
             
             #buttons {
-                width: 90px;
+                width: 100px;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
-                border: 1px solid black;
+                border: 1px solid rgb(161, 161, 161);
                 margin-top: 35px;
                 border-radius: 5px;
-                height: 25px;
+                height: 35px;
+                align-items: center;
             }
             
             #buttons button {
-                width: 15px;
-                height: 20px;
+                width: 18px;
+                height: 25px;
                 margin-top: 2px;
                 border-radius: 3px;
                 border: none;
@@ -69,12 +70,28 @@
             
             #buttons p {
                 margin-top: 3px;
+                font-size: 0.8rem;
+            }
+            
+            span {
+                text-decoration: line-through;
+                font-size: 0.7rem;
+                margin-left: 6px;
+            }
+            
+            strong {
+                color: orange;
+            }
+            
+            #shipping__total {
+                margin: 60px 45px 15px 15px;
             }
             
             .image__shipping {
                 display: flex;
                 flex-direction: row;
-                margin: 0 35px 0 15px;
+                margin: 10px 0;
+                border-top: 1px solid rgb(182, 182, 182);
             }
             
             .image__shipping p {
@@ -167,9 +184,14 @@
             
             #postcode {
                 width: 180px;
-                margin-left: 50px;
+                margin-left: 30px;
             }
             
             #country {
                 width: 120px;
+            }
+            
+            #check {
+                display: flex;
+                flex-direction: row;
             }
