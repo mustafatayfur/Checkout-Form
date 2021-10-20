@@ -18,6 +18,7 @@
             .image {
                 margin: 30px;
                 width: 350px;
+                min-width: 350px;
                 border-radius: 12px;
                 height: 400px;
                 background-color: #EEEEEE;
@@ -30,9 +31,9 @@
             
             img {
                 margin: 15px;
-                width: auto;
+                width: 90px;
                 height: 110px;
-                border-radius: 15px;
+                border-radius: 10px;
             }
             
             .prices {
@@ -41,11 +42,9 @@
             
             h2 {
                 font-size: 0.9rem;
+                margin-top: 10px;
+                color: rgb(85, 85, 85);
             }
-            /*         
-        #shoes {
-            margin-top: 0;
-        } */
             
             #buttons {
                 width: 100px;
@@ -62,7 +61,6 @@
             #buttons button {
                 width: 18px;
                 height: 25px;
-                margin-top: 2px;
                 border-radius: 3px;
                 border: none;
                 background-color: #d6d6d6;
@@ -117,11 +115,12 @@
             
             label {
                 margin: 10px 0;
-                font-size: 0.6rem;
+                font-size: 0.7rem;
             }
             
             input,
             select {
+                margin-top: 5px;
                 width: 380px;
                 height: 32px;
                 border-radius: 5px;
@@ -134,6 +133,7 @@
             
             #info {
                 width: 15px;
+                margin-right: 10px;
             }
             
             #continue button {
@@ -159,22 +159,22 @@
             .input-field i {
                 position: absolute;
                 left: 0;
-                top: 0;
+                top: 5px;
                 padding: 9px 8px;
-                color: #aaa;
+                color: rgb(141, 138, 138);
             }
             
             #postcode-i {
                 position: absolute;
-                left: 50px;
-                top: 0;
+                left: 35px;
+                top: 5px;
                 padding: 9px 8px;
                 color: #aaa;
             }
             
             #postcode-label {
                 position: relative;
-                left: 50px;
+                left: 35px;
             }
             
             #country-postcode {
@@ -189,6 +189,11 @@
             
             #country {
                 width: 120px;
+            }
+            
+             ::placeholder {
+                color: rgb(107, 107, 107);
+                font-weight: 550;
             }
             
             #check {
